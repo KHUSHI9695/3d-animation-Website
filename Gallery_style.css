@@ -1,0 +1,129 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    height: 100vh;
+    width: auto;
+    background-image: url(image_processing20200816-28377-1e3gxcu.png);
+    background-position: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+    padding:0px;
+    margin:0px;
+}
+h2{
+    font-size: 50px;
+    color: white;
+    padding :50px;
+}
+.navbar{
+    display: flex;
+    align-items:center;
+    margin: auto;
+    height: 15vh;
+    width: 100%;
+    text-align: right;
+}
+nav{
+    flex: 1px;
+}
+nav ul li{
+    display: inline-block;
+    list-style:none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+   
+}
+h1{
+    font-size: 150px;
+    text-align: center;
+    color: white;
+}
+p{
+    text-align: center;
+    color: lightblue;
+    font-size: 30px;
+    margin: 3px;
+}
+.murcury
+{   
+    padding:0px;
+    margin:0px;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+    background-image: url(image_processing20200816-30397-86ql0e.png);
+}
+.murcury h2{
+    text-align: center;
+    margin:0px;
+}
+.horizontal-flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 5px;
+    height: 90%;
+}
+
+.Photo-Gallery_img{
+    height: 250px;
+    margin: 25px;
+    width: 8cm;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.murcury h2{
+    font-size: 40px;
+    color: white;
+    padding-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.murcury p{
+    font-size: small;
+    color: lightblue;
+}
+figcaption{
+    color: white;
+    margin-left: 30px;
+    text-align: center;
+    font-size: large;
+}
+
+.footer-icon{
+    margin: 0px;
+    height: 80px;
+    width: 3cm;
+}
+.footer-icon p{
+    font-size: 100px;
+}
+.Nav {
+    background-color:rgb(12, 8, 17);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7%;
+}
+.social-links{
+    display:flex;
+}
+.social-links a{
+    width:50px;
+    height: 50px;
+} 
